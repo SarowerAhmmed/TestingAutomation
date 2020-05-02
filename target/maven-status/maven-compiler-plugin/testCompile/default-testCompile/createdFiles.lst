@@ -1,0 +1,3 @@
+com\regression\Regression.class
+com\sanity\CheckSanity.class
+com\smoke\CheckSmoke.class

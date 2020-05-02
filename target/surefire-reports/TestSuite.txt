@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 1, Time elapsed: 94.986 s <<< FAILURE! - in TestSuite
+com.regression.Regression.regrassion_TC2  Time elapsed: 24.243 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.regrassion_TC2(Regression.java:55)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.regrassion_TC2(Regression.java:55)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.regrassion_TC2(Regression.java:55)
+
+com.regression.Regression.regrassion_TC3_TC4  Time elapsed: 4.552 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.regrassion_TC3_TC4(Regression.java:62)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.regrassion_TC3_TC4(Regression.java:62)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.regrassion_TC3_TC4(Regression.java:62)
+
+com.regression.Regression.regrassion_TC5_TC6  Time elapsed: 4.502 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.regrassion_TC5_TC6(Regression.java:91)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.regrassion_TC5_TC6(Regression.java:91)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.regrassion_TC5_TC6(Regression.java:91)
+
+com.regression.Regression.regrassion_TC7_TC8  Time elapsed: 4.705 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.regrassion_TC7_TC8(Regression.java:118)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.regrassion_TC7_TC8(Regression.java:118)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.regrassion_TC7_TC8(Regression.java:118)
+
+com.regression.Regression.regrassion_TC9  Time elapsed: 4.093 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.regrassion_TC9(Regression.java:141)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.regrassion_TC9(Regression.java:141)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.regrassion_TC9(Regression.java:141)
+
+com.regression.Regression.test_regrassion_TC10  Time elapsed: 4.047 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.test_regrassion_TC10(Regression.java:159)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.test_regrassion_TC10(Regression.java:159)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.test_regrassion_TC10(Regression.java:159)
+
+com.regression.Regression.teardown  Time elapsed: 8.581 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-A7L5GQS', ip: '192.168.159.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+	at com.regression.Regression.teardown(Regression.java:175)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:11971
+	at com.regression.Regression.teardown(Regression.java:175)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.regression.Regression.teardown(Regression.java:175)
+
